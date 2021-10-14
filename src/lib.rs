@@ -88,6 +88,7 @@ mod tests {
             Config {
                 query: String::from("nobody"),
                 filename: String::from("test.txt"),
+                case_sensitive: true,
             }
         );
     }
